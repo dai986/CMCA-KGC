@@ -10,8 +10,6 @@ This repository contains selected public reference components used in CMCA-KGC:
 - an interface for externally prepared community features;
 - a lightweight description of the expected dataset layout.
 
-The current release is intended to document the model design and support inspection of the main implementation. It does not include raw datasets, trained checkpoints, server files, experiment logs, or the complete training and validation pipeline.
-
 The complete multi-scale community construction, data preparation, training,
 validation, and experimental configuration files are not included in this
 partial release. They will be organized and released in a later version after
