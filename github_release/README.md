@@ -41,7 +41,3 @@ Each line should contain one tab-separated triple:
 ```text
 head<TAB>relation<TAB>tail
 ```
-
-## Status
-
-This is a partial public release of the research code. The repository will be updated with a complete reproducibility package after the paper review process is completed.
