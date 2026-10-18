@@ -6,11 +6,6 @@ from torch.nn import functional as F
 
 
 class ChannelMixingBlock(nn.Module):
-    """A compact gated channel-mixing block for feature sequences.
-
-    This public component illustrates the channel-wise transformation used by
-    the framework without exposing the complete data pipeline or model wiring.
-    """
 
     def __init__(self, d_model: int, d_inner: int, dropout: float = 0.1):
         super().__init__()
@@ -29,11 +24,6 @@ class ChannelMixingBlock(nn.Module):
 
 
 class CommunityFeatureAdapter(nn.Module):
-    """Accept externally prepared community features.
-
-    The community detection and assignment-generation procedure is outside
-    the scope of this partial public release.
-    """
 
     def __init__(self, entity_dim: int, community_dim: int, output_dim: int):
         super().__init__()
