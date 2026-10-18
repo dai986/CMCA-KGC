@@ -1,10 +1,3 @@
-"""Public reference component for the CMCA-KGC channel-mixing block.
-
-The complete CMCA-KGC architecture is intentionally not included in this
-partial release. Community assignments are supplied as external structural
-features in the full implementation.
-"""
-
 from __future__ import annotations
 
 import torch
